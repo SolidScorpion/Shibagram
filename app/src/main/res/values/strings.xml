@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ShibaGram</string>
+    <string name="fetching_data">Loading...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="no_internet">No internet connection!</string>
+    <string name="fav_screen_title">Favorites</string>
+    <string name="url_copied_to_clipboard">URL copied!</string>
+    <string name="flickr_photos">Flickr photos</string>
+    <string name="px500_photos">500Px Photos</string>
+    <string name="share_link_title">Share link using:</string>
+    <string name="analytics_id">UA-86243356-1</string>
+    <string name="fragment_flickr_screen_name">Flickr screen</string>
+    <string name="fragment_main_content_sceen">Main content screen</string>
+    <string name="fragment_favourites_screen_name">Favourites screen</string>
+    <string name="fragment_500px_screen_name">500PX Screen</string>
+    <string name="string_feedback">Feedback</string>
+    <string-array name="author_info_actions">
+        <item>Copy author URL to clipboard</item>
+        <item>Visit photo page</item>
+    </string-array>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+    <string name="string_enter_text_first">Please enter text first!</string>
+    <string name="string_feedback_hint">Feedback</string>
+    <string name="string_feedback_email_title">Feedback for Shibagram</string>
+    <string name="string_feedback_email">solidscorpionsoft@gmail.com</string>
+    <string name="string_choose_email_client">Send feedback using...</string>
+    <string name="string_email_cancelled">Sending email cancelled</string>
+    <string name="string_thanks_for_feedback">Thanks for feedback!</string>
+    <string name="string_feedback_text">Thank you for using my app! As a shiba owner words can\'t express how unique these dogs are\n I hope that by using my app you discovered something new. Always looking forward to your feedback!</string>
+    <string name="string_no_default_email">Default email client not found</string>
+
+</resources>

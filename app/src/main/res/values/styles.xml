@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppThemeBase"></style>
+
+    <style name="AppThemeBase" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/primary_light</item>
+        <item name="android:actionMenuTextColor">@color/primary_light</item>
+    </style>
+
+    <style name="MenuItemStyle" parent="Theme.AppCompat.Light">
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/primary_light</item>
+        <item name="android:textColor">@color/primary_light</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <!-- android:textColorPrimary is the color of the title text in the Toolbar  -->
+        <item name="android:textColorPrimary">@color/primary_light</item>
+        <item name="android:textColorSecondary">@color/primary_light</item>
+        <item name="android:actionMenuTextColor">@color/primary_light</item>
+        <!-- actionMenuTextColor is the color of the text of action (menu) items  -->
+        <!--<item name="actionMenuTextColor">@android:color/holo_green_light</item>-->
+        <!-- Tints the input fields like checkboxes and text fields -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Applies to views in their normal state. -->
+        <!--<item name="colorControlNormal">@color/controlNormal</item>-->
+        <!-- Applies to views in their activated state (i.e checked or switches) -->
+        <!--<item name="colorControlActivated">@color/controlActivated</item>-->
+        <!-- Applied to framework control highlights (i.e ripples or list selectors) -->
+        <!--<item name="colorControlHighlight">@color/controlActivated</item>-->
+
+        <!-- Enable these below if you want clicking icons to trigger a ripple effect -->
+        <!--
+        -->
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackground</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+    </style>
+
+    <style name="BaseTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textViewSize</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

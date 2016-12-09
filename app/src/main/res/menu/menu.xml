@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/showFlickr"
+        android:icon="@drawable/iconmonstr_flickr_1"
+        android:title="Flickr"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/show500Px"
+        android:icon="@drawable/iconmonstr_500px_1"
+        android:title="500px"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/showFavourites"
+        android:icon="@drawable/ic_pets_favourites"
+        android:title="Show Favouries"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/feedback"
+        android:title="@string/string_feedback" />
+
+</menu>

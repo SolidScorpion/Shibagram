@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tracking_id">UA-86243356-1</string>
+    <integer name="ga_sessionTimeout">300</integer>
+    <!--Dispatch period in minutes for google analytics-->
+    <integer name="ga_dispatchPeriod">30</integer>
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <string name="ga_sampleFrequency">100.0</string>
+
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <screenName name="com.apripachkin.shibagram.screens.mainscreen.MainActivity">
+        ShibaGram MainActivity
+    </screenName>
+    <screenName name="com.apripachkin.shibagram.screens.contentscreen.MainShibaContentFragment">
+        ShibaGram MainShibaContent
+    </screenName>
+</resources>

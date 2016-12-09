@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_feedback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.apripachkin.shibagram.screens.feedbackscreen.FeedbackActivity"
+    tools:showIn="@layout/activity_feedback">
+
+    <TextView
+        android:id="@+id/tvFeedbackTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/string_feedback_text"
+        android:textSize="@dimen/textViewSize" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvFeedbackTitle">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/textInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="20"
+            android:hint="@string/string_feedback_hint"
+            android:textColor="@android:color/black" />
+    </android.support.design.widget.TextInputLayout>
+
+</RelativeLayout>

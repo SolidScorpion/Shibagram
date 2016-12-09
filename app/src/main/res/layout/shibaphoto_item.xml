@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="3dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="2dp"
+    app:cardPreventCornerOverlap="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgShibaPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/photo_height" />
+
+        <View
+            android:id="@+id/circleBg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/photo_height"
+            android:layout_centerInParent="true"
+            android:background="@drawable/circle_like"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/paw_like"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/photo_height"
+            android:scaleType="center"
+            android:tint="@color/colorAccent"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_pets_img_like" />
+
+        <eu.davidea.flipview.FlipView
+            android:id="@+id/imgLikeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgShibaPhoto"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="false"
+            android:inAnimation="@anim/grow_from_middle_x_axis"
+            android:outAnimation="@anim/shrink_to_middle_x_axis"
+            app:animationDuration="300"
+            app:checked="false"
+            app:enableInitialAnimation="true"
+            app:frontBackgroundColor="@android:color/transparent"
+            app:frontImage="@drawable/ic_pets"
+            app:rearBackgroundColor="@android:color/transparent"
+            app:rearImage="@drawable/ic_pets_liked"
+            app:rearImageAnimationDelay="100"
+            app:rearImageAnimationDuration="200" />
+
+        <ImageView
+            android:id="@+id/imgShareBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_above="@+id/tvItemDescription"
+            android:layout_toRightOf="@id/imgLikeBtn"
+            android:src="@android:drawable/ic_menu_share" />
+
+        <TextView
+            android:id="@+id/tvItemDescription"
+            android:textSize="@dimen/textViewSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgLikeBtn"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="sample text" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

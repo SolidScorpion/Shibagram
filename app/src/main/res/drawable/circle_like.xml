@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:bottom="@dimen/like_circle_dim"
+    android:left="@dimen/like_circle_dim"
+    android:right="@dimen/like_circle_dim"
+    android:shape="oval"
+    android:top="@dimen/like_circle_dim">
+    <size
+        android:width="120dp"
+        android:height="120dp" />
+    <solid android:color="#11ffffff" />
+</shape>
